@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google font EB garamond and poppin-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind custom color -->
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .font-EBGaramond{ 
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body class="font-EBGaramond">
+    <!-- nav section -->
+    <nav class="navbar">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </label>
+              </div>
+              <img src="./images/logo2.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-2xl">
+                <li><a>Home ></a></li>
+                <li><a>Services ></a></li>
+                <li><a>Cases ></a></li>
+                <li><a>Blog ></a></li>
+                <li><a>Contact Us ></a></li>
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn bg-yellow-800 text-white">Free Consultation</a>
+            </div>
+          </div>
+    </nav>
+    <!-- header section 1 -->
+    <header class="container mx-auto">
+        <div>
+            <div class="hero min-h-screen" style="background-image: url(./images/banner.png);">
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="hero-content text-center text-neutral-content">
+                  <div class="max-w-md">
+                    <h1 class="mb-5 text-4xl font-bold font-EB Garamond">We Provide Effective Legal Solutions</h1>
+                    <p class="mb-5 font-poppins">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    <div class="flex gap-10">
+                        <input type="text" placeholder="Search your services" class="input input-bordered input-info w-full max-w-xs" />
+                        <button class="btn bg-yellow-800 text-white border-0">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </header>
+    <!-- header section 2 -->
+    <section>
+        <div class="mt-16 justify-center text-center">
+            <h2 class="text-4xl font-bold">The Legal Practice Area</h2>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        </div>
+        <div class="card  gap-10 mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <!-- 1st card -->
+            
+                <div class="rounded-xl">
+                    <figure><img src="/images/business.png" alt="haturi" /></figure>
+                    <div class="card-body">
+                  <h2 class="card-title">Business Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <div>
+                    <img class="" src="./images/Frame.png" alt="">
+                  </div>
+                </div>
+            </div>
+              
+        
+            <!-- 2nd card -->
+            
+               <div class="bg-slate-300 rounded-xl">
+                <figure><img src="/images/criminal.png" alt="haturi" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Criminal Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <div>
+                    <img class="" src="./images/Frame.png" alt="">
+                  </div>
+                </div>
+               </div>
+             
+       
+            <!-- 3rd card -->
+            
+                <div>
+                    <figure><img src="/images/child.png" alt="haturi" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Child Support</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <div>
+                    <img class="" src="./images/Frame.png" alt="">
+                  </div>
+                </div>
+                </div>
+              
+       
+            <!-- 4rth card -->
+            
+               <div>
+                <figure><img src="/images/divorce.png" alt="haturi" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Divorce Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <div>
+                    <img class="" src="./images/Frame.png" alt="">
+                  </div>
+                </div>
+               </div>
+              
+        
+            <!-- 5th card -->
+            
+               <div>
+                <figure><img src="/images/tax.png" alt="haturi" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Tax Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <div>
+                    <img class="" src="./images/Frame.png" alt="">
+                  </div>
+                </div>
+               </div>
+              
+            <!-- 6th card -->
+            
+                <div>
+                    <figure><img src="/images/education.png" alt="haturi" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Education Law</h2>
+                  <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <div>
+                    <img class="" src="./images/Frame.png" alt="">
+                  </div>
+                </div>
+                </div> 
+        </div>
+        <!-- slider section -->
+    
+    </section>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
